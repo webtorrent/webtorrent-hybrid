@@ -1,0 +1,44 @@
+{
+  "name": "webtorrent-hybrid",
+  "description": "Streaming torrent client",
+  "version": "0.0.0",
+  "author": {
+    "name": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "http://feross.org/"
+  },
+  "bin": {
+    "webtorrent-hybrid": "./bin/cmd.js"
+  },
+  "bugs": {
+    "url": "https://github.com/feross/webtorrent-hybrid/issues"
+  },
+  "dependencies": {
+    "webtorrent": "0.x",
+    "wrtc": "0.0.55"
+  },
+  "devDependencies": {
+    "standard": "^3.1.1"
+  },
+  "homepage": "http://webtorrent.io",
+  "keywords": [
+    "torrent",
+    "bittorrent",
+    "bittorrent client",
+    "streaming",
+    "download",
+    "webrtc",
+    "webrtc data",
+    "webtorrent",
+    "mad science"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/feross/webtorrent-hybrid.git"
+  },
+  "scripts": {
+    "test": "standard"
+  }
+}
