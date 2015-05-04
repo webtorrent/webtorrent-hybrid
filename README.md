@@ -1,6 +1,5 @@
 # WebTorrent Hybrid Client (Node.js)
 
-[![Gitter][webtorrent-gitter-image]][webtorrent-gitter-url]
 [![Build Status][webtorrent-ti]][webtorrent-tu]
 [![NPM Version][webtorrent-ni]][webtorrent-nu]
 [![NPM Downloads][webtorrent-downloads-image]][webtorrent-downloads-url]
@@ -51,5 +50,3 @@ MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
 [webtorrent-gratipay-url]: https://gratipay.com/feross/
 [webtorrent-sauce-image]: https://saucelabs.com/browser-matrix/webtorrent-hybrid.svg
 [webtorrent-sauce-url]: https://saucelabs.com/u/webtorrent-hybrid
-[webtorrent-gitter-image]: https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=flat
-[webtorrent-gitter-url]: https://gitter.im/feross/webtorrent-hybrid
