@@ -6,7 +6,7 @@
 [![NPM Downloads][webtorrent-downloads-image]][webtorrent-downloads-url]
 
 
-**Streaming torrent client for node & the browser.**
+### Streaming torrent client for node & the browser
 
 In node.js, `webtorrent` no longer connects to WebRTC peers, just normal TCP/UDP peers. If you want to connect to all types of peers, including WebRTC peers, from node.js, you need to use this package (`webtorrent-hybrid`).
 
@@ -14,7 +14,7 @@ The `wrtc` dependency (which provides WebRTC support in node.js) can be a bit di
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
-### Install
+## Install
 
 To install WebTorrent:
 
@@ -28,7 +28,7 @@ To install a `webtorrent-hybrid` command line program, run:
 npm install webtorrent-hybrid -g
 ```
 
-### Usage
+## Usage
 
 `webtorrent-hybrid` has the same command line interface (CLI) and module API as
 [`webtorrent`](https://github.com/feross/webtorrent). Just `require('webtorrent-hybrid')`
@@ -36,7 +36,7 @@ instead of `require('webtorrent')`.
 
 See the [WebTorrent docs](https://github.com/feross/webtorrent).
 
-### License
+## License
 
 MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
 
