@@ -1,11 +1,10 @@
-# ![WebTorrent](img/wordmark.png)
+# WebTorrent Hybrid Client (Node.js)
 
 [![Gitter][webtorrent-gitter-image]][webtorrent-gitter-url]
 [![Build Status][webtorrent-ti]][webtorrent-tu]
 [![NPM Version][webtorrent-ni]][webtorrent-nu]
 [![NPM Downloads][webtorrent-downloads-image]][webtorrent-downloads-url]
 
-### WebTorrent Hybrid Client (Node.js)
 
 **Streaming torrent client for node & the browser.**
 
@@ -28,6 +27,14 @@ To install a `webtorrent-hybrid` command line program, run:
 ```bash
 npm install webtorrent-hybrid -g
 ```
+
+### Usage
+
+`webtorrent-hybrid` has the same command line interface (CLI) and module API as
+[`webtorrent`](https://github.com/feross/webtorrent). Just `require('webtorrent-hybrid')`
+instead of `require('webtorrent')`.
+
+See the [WebTorrent docs](https://github.com/feross/webtorrent).
 
 ### License
 
