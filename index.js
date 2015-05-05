@@ -1,2 +1,2 @@
-global.WRTC = require('wrtc')
+require('./lib/global')
 module.exports = require('webtorrent')

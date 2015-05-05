@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
-global.WRTC = require('wrtc')
+require('../lib/global')
 require('webtorrent/bin/cmd')
