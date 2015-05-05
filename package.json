@@ -14,7 +14,7 @@
     "url": "https://github.com/feross/webtorrent-hybrid/issues"
   },
   "dependencies": {
-    "webtorrent": "^0.35.0",
+    "webtorrent": "^0.37.1",
     "wrtc": "0.0.55"
   },
   "devDependencies": {
