@@ -1,7 +1,7 @@
 {
   "name": "webtorrent-hybrid",
   "description": "Streaming torrent client",
-  "version": "0.38.3",
+  "version": "0.38.4",
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",
