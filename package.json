@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "webtorrent": "0.x",
-    "wrtc": "0.0.55"
+    "wrtc": "0.0.56"
   },
   "devDependencies": {
     "standard": "^4.2.0"
