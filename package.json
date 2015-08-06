@@ -18,7 +18,7 @@
     "wrtc": "0.0.55"
   },
   "devDependencies": {
-    "standard": "^4.2.0"
+    "standard": "^5.0.2"
   },
   "homepage": "http://webtorrent.io",
   "keywords": [
