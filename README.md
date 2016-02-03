@@ -40,13 +40,13 @@ See the [WebTorrent docs](https://github.com/feross/webtorrent).
 MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
 
 [webtorrent]: https://github.com/feross/webtorrent-hybrid
-[webtorrent-ti]: https://img.shields.io/travis/feross/webtorrent-hybrid.svg?style=flat
+[webtorrent-ti]: https://img.shields.io/travis/feross/webtorrent-hybrid/master.svg
 [webtorrent-tu]: https://travis-ci.org/feross/webtorrent-hybrid
-[webtorrent-ni]: https://img.shields.io/npm/v/webtorrent-hybrid.svg?style=flat
+[webtorrent-ni]: https://img.shields.io/npm/v/webtorrent-hybrid.svg
 [webtorrent-nu]: https://npmjs.org/package/webtorrent-hybrid
-[webtorrent-downloads-image]: https://img.shields.io/npm/dm/webtorrent-hybrid.svg?style=flat
+[webtorrent-downloads-image]: https://img.shields.io/npm/dm/webtorrent-hybrid.svg
 [webtorrent-downloads-url]: https://npmjs.org/package/webtorrent-hybrid
-[webtorrent-gratipay-image]: https://img.shields.io/gratipay/feross.svg?style=flat
+[webtorrent-gratipay-image]: https://img.shields.io/gratipay/feross.svg
 [webtorrent-gratipay-url]: https://gratipay.com/feross/
 [webtorrent-sauce-image]: https://saucelabs.com/browser-matrix/webtorrent-hybrid.svg
 [webtorrent-sauce-url]: https://saucelabs.com/u/webtorrent-hybrid
