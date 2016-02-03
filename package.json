@@ -7,9 +7,7 @@
     "email": "feross@feross.org",
     "url": "http://feross.org/"
   },
-  "bin": {
-    "webtorrent-hybrid": "./bin/cmd.js"
-  },
+  "bin": "./bin/cmd.js",
   "bugs": {
     "url": "https://github.com/feross/webtorrent-hybrid/issues"
   },
@@ -22,15 +20,15 @@
   },
   "homepage": "http://webtorrent.io",
   "keywords": [
-    "torrent",
     "bittorrent",
     "bittorrent client",
-    "streaming",
     "download",
+    "mad science",
+    "streaming",
+    "torrent",
     "webrtc",
     "webrtc data",
-    "webtorrent",
-    "mad science"
+    "webtorrent"
   ],
   "license": "MIT",
   "main": "index.js",
