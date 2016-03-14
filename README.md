@@ -11,7 +11,7 @@ In node.js, `webtorrent` no longer connects to WebRTC peers, just normal TCP/UDP
 
 While previous versions were using [wrtc](https://github.com/js-platform/node-webrtc), a WebRTC implementation via native extensions, for better compatibility the current one is based on [electron-webrtc](https://github.com/mappum/electron-webrtc). Its creating a hidden electron process which communicates with the Chromium API in the background. Since it comes with the overhead of [electron-prebuilt](https://github.com/electron-userland/electron-prebuilt) we are looking further  for a seamless integration through other implementations like [Node-RTCPeerConnection](https://github.com/nickdesaulniers/node-rtc-peer-connection).
 
-To run this package on a headless server follow [these instructions](https://github.com/mappum/electron-webrtc#running-on-a-headless-server).
+To run this package on a headless server execute [the provided script](bin/prepareHeadless.sh) or follow [these instructions](https://github.com/mappum/electron-webrtc#running-on-a-headless-server).
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
