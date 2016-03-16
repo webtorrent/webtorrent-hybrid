@@ -17,6 +17,14 @@ To run this package on a headless server execute [the provided script](bin/prepa
 
 ## Install
 
+The current version of `webtorrent-hybrid` requires an screen as the headless electron expects one. In case that you are running in a screenless environment you must use a virtual screen such as `xvfb`. You must first install it and run it. For Debian based OSs:
+
+```bash
+sudo apt-get install xvfb
+export DISPLAY='0:99'
+Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+```
+
 To install WebTorrent:
 
 ```bash
