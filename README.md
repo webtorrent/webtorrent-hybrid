@@ -31,6 +31,17 @@ export DISPLAY='0:99'
 Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 ```
 
+Also, if you're running webtorrent-hybrid in a node.js project, you can start Xvfb within your app:
+```bash
+npm install xvfb
+
+var Xvfb = require('xvfb')
+var xvfb = new Xvfb()
+xvfb.startSync()
+
+Webtorrent = require('webtorrent-hybrid')
+```
+
 To install WebTorrent:
 
 ```bash
