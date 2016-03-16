@@ -7,9 +7,9 @@ if [ -z $(pidof X) ]; then
     # TODO:
     # - check alternative package support
     if VERB="$( which apt-get )" 2> /dev/null; then
-      apt-get install xvfb
+      sudo apt-get install xvfb
     elif VERB="$( which yum )" 2> /dev/null; then
-      yum install xorg-x11-server-Xvfb
+      sudo yum install xorg-x11-server-Xvfb
     else
       echo "Could not determine your package manager. Please, check the instructions to install Xvfb in your enviroment"
       exit 2
