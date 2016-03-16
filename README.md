@@ -16,32 +16,6 @@ To run this package on a headless server execute [the provided script](bin/prepa
 
 ## Install
 
-The current version of `webtorrent-hybrid` requires an screen as the headless electron expects one. In case that you are running in a screenless environment you must use a virtual screen such as `xvfb`. You must first install it and run it. For Debian based OSs:
-
-```bash
-sudo apt-get install xvfb
-export DISPLAY='0:99'
-Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
-```
-
-For Centos/rhel:
-```bash
-sudo yum install xorg-x11-server-Xvfb
-export DISPLAY='0:99'
-Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
-```
-
-Also, if you're running webtorrent-hybrid in a node.js project, you can start Xvfb within your app:
-```bash
-npm install xvfb
-
-var Xvfb = require('xvfb')
-var xvfb = new Xvfb()
-xvfb.startSync()
-
-Webtorrent = require('webtorrent-hybrid')
-```
-
 To install WebTorrent:
 
 ```bash
@@ -52,6 +26,50 @@ To install a `webtorrent-hybrid` command line program, run:
 
 ```bash
 npm install webtorrent-hybrid -g
+```
+
+### OS X
+
+On OS X, this should Just Work™.
+
+### Linux
+
+The current version of `webtorrent-hybrid` requires a screen, since the headless Electron
+instance expects one. If you're running in a screenless environment (like on a server),
+you must use a virtual screen such as `xvfb`. You must install it and run it before using
+`webtorrent-hybrid`.
+
+#### For Debian-based OSs:
+
+```bash
+sudo apt-get install xvfb
+export DISPLAY='0:99'
+Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+```
+
+#### For CentOS / RHEL:
+
+```bash
+sudo yum install xorg-x11-server-Xvfb
+export DISPLAY='0:99'
+Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+```
+
+### Node.js API
+
+If you're using `webtorrent-hybrid` in a node.js project, you can start Xvfb within your
+app:
+
+```
+npm install xvfb
+```
+
+```js
+var Xvfb = require('xvfb')
+var xvfb = new Xvfb()
+xvfb.startSync()
+
+var WebTorrent = require('webtorrent-hybrid')
 ```
 
 ## Usage
