@@ -12,7 +12,7 @@
     "url": "https://github.com/feross/webtorrent-hybrid/issues"
   },
   "dependencies": {
-    "electron-webrtc": "0.0.3",
+    "electron-webrtc": "^0.1.0",
     "webtorrent": "^0.85.1",
     "webtorrent-cli": "^1.0.1"
   },
