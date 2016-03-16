@@ -12,8 +12,9 @@
     "url": "https://github.com/feross/webtorrent-hybrid/issues"
   },
   "dependencies": {
+    "create-torrent": "^3.23.1",
     "electron-webrtc": "^0.1.0",
-    "webtorrent": "^0.85.1",
+    "webtorrent": "0.x",
     "webtorrent-cli": "^1.0.1"
   },
   "devDependencies": {
@@ -38,7 +39,6 @@
     "url": "git://github.com/feross/webtorrent-hybrid.git"
   },
   "scripts": {
-    "check": "npm outdated -depth 0",
     "test": "standard"
   }
 }
