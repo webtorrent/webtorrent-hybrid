@@ -1,15 +1,14 @@
-# WebTorrent Hybrid Client (Node.js)
+# WebTorrent (with WebRTC support in Node.js)
 
 [![Build Status][webtorrent-ti]][webtorrent-tu]
 [![NPM Version][webtorrent-ni]][webtorrent-nu]
 [![NPM Downloads][webtorrent-downloads-image]][webtorrent-downloads-url]
 
-
 ### Streaming torrent client for node environments
 
-In node.js, `webtorrent` no longer connects to WebRTC peers, just normal TCP/UDP peers. If you want to connect to all types of peers, including WebRTC peers, from node.js, you need to use this package (`webtorrent-hybrid`).
+In node.js, the `webtorrent` package only connects to normal TCP/UDP peers, not WebRTC peers. If you want to connect to all types of peers, including WebRTC peers, from node.js, you need to use this package (`webtorrent-hybrid`).
 
-While previous versions were using [wrtc](https://github.com/js-platform/node-webrtc), a WebRTC implementation via native extensions, for better compatibility the current one is based on [electron-webrtc](https://github.com/mappum/electron-webrtc). Its creating a hidden electron process which communicates with the Chromium API in the background. Since it comes with the overhead of [electron-prebuilt](https://github.com/electron-userland/electron-prebuilt) we are looking further  for a seamless integration through other implementations like [Node-RTCPeerConnection](https://github.com/nickdesaulniers/node-rtc-peer-connection).
+Previous versions (0.x) of this package used [wrtc](https://github.com/js-platform/node-webrtc), a WebRTC implementation via native extensions, the current one is based on [electron-webrtc](https://github.com/mappum/electron-webrtc) (which in turn uses [electron-prebuilt](https://github.com/electron-userland/electron-prebuilt)) for better compatibility. It creates a hidden Electron process (which is based on Chromium, so WebRTC support is great!) and communicates with that process to enable WebRTC in Node.js. This adds a lot of overhead, so we are looking forward to using a pure JavaScript implementation, like perhaps [Node-RTCPeerConnection](https://github.com/nickdesaulniers/node-rtc-peer-connection) when it's ready.
 
 To run this package on a headless server execute [the provided script](bin/prepareHeadless.sh) or follow [these instructions](https://github.com/mappum/electron-webrtc#running-on-a-headless-server).
 
