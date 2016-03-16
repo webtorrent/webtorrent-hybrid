@@ -24,6 +24,13 @@ export DISPLAY='0:99'
 Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 ```
 
+For Centos/rhel:
+```bash
+sudo yum install xorg-x11-server-Xvfb
+export DISPLAY='0:99'
+Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+```
+
 To install WebTorrent:
 
 ```bash
