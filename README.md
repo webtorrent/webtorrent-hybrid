@@ -82,7 +82,7 @@ See the [WebTorrent docs](https://github.com/feross/webtorrent).
 
 ## License
 
-MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
+MIT. Copyright (c) [WebTorrent, LLC](https://webtorrent.io).
 
 [webtorrent]: https://github.com/feross/webtorrent-hybrid
 [webtorrent-ti]: https://img.shields.io/travis/feross/webtorrent-hybrid/master.svg
