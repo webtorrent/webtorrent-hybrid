@@ -39,10 +39,18 @@ instance expects one. If you're running in a screenless environment (like on a s
 you must use a virtual screen such as `xvfb`. You must install it before using
 `webtorrent-hybrid`.
 
-#### For Debian-based OSs:
+#### For Debian / Ubuntu:
 
 ```bash
 sudo apt-get install xvfb
+```
+
+If you get an error about a missing .so file ("error while loading shared libraries"), use the search at the bottom of [packages.debian.org](https://packages.debian.org) to find out which packages in your release provide a given file.
+
+On server editions, the following additional packages should be installed since Electron depends on them:
+
+```bash
+sudo apt-get install libgtk2.0-0 libxtst-dev libxss-dev libgconf2-dev libnss3 libasound2-dev
 ```
 
 #### For CentOS / RHEL:
