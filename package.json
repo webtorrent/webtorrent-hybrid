@@ -20,6 +20,9 @@
   "devDependencies": {
     "standard": "^7.0.0"
   },
+  "engines": {
+    "node": ">=4"
+  },
   "homepage": "http://webtorrent.io",
   "keywords": [
     "bittorrent",
