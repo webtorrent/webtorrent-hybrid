@@ -18,7 +18,7 @@
     "webtorrent-cli": "^1.0.1"
   },
   "devDependencies": {
-    "standard": "^7.0.0"
+    "standard": "*"
   },
   "engines": {
     "node": ">=4"
