@@ -1,10 +1,15 @@
-# WebTorrent (with WebRTC support in Node.js)
+# webtorrent-hybrid [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
-[![Build Status][webtorrent-ti]][webtorrent-tu]
-[![NPM Version][webtorrent-ni]][webtorrent-nu]
-[![NPM Downloads][webtorrent-downloads-image]][webtorrent-downloads-url]
+[travis-image]: https://img.shields.io/travis/feross/webtorrent-hybrid/master.svg
+[travis-url]: https://travis-ci.org/feross/webtorrent-hybrid
+[npm-image]: https://img.shields.io/npm/v/webtorrent-hybrid.svg
+[npm-url]: https://npmjs.org/package/webtorrent-hybrid
+[downloads-image]: https://img.shields.io/npm/dm/webtorrent-hybrid.svg
+[downloads-url]: https://npmjs.org/package/webtorrent-hybrid
+[standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[standard-url]: https://standardjs.com
 
-### Streaming torrent client for node environments
+### Streaming torrent client (with WebRTC support in Node.js)
 
 In node.js, the `webtorrent` package only connects to normal TCP/UDP peers, not WebRTC peers. If you want to connect to all types of peers, including WebRTC peers, from node.js, you need to use this package (`webtorrent-hybrid`).
 
