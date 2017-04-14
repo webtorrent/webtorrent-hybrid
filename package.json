@@ -9,7 +9,7 @@
   },
   "bin": "./bin/cmd.js",
   "bugs": {
-    "url": "https://github.com/feross/webtorrent-hybrid/issues"
+    "url": "https://github.com/webtorrent/webtorrent-hybrid/issues"
   },
   "dependencies": {
     "create-torrent": "^3.23.1",
@@ -39,7 +39,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/feross/webtorrent-hybrid.git"
+    "url": "git://github.com/webtorrent/webtorrent-hybrid.git"
   },
   "scripts": {
     "test": "standard"
