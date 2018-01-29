@@ -1,6 +1,4 @@
-# webtorrent-hybrid [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url] [![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
-
-
+# webtorrent-hybrid [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
 [travis-image]: https://img.shields.io/travis/webtorrent/webtorrent-hybrid/master.svg
 [travis-url]: https://travis-ci.org/webtorrent/webtorrent-hybrid
@@ -10,8 +8,6 @@
 [downloads-url]: https://npmjs.org/package/webtorrent-hybrid
 [standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 [standard-url]: https://standardjs.com
-[greenkeeper-image]: https://badges.greenkeeper.io/webtorrent/webtorrent-hybrid.svg
-[greenkeeper-url]: https://greenkeeper.io/
 
 ### Streaming torrent client (with WebRTC support in Node.js)
 
