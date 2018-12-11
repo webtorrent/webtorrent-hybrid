@@ -1,9 +1,7 @@
-// var WebTorrent = require('webtorrent-hybrid')
-var WebTorrent = require('../index')
+const WebTorrent = require('../index')
 
-var client = new WebTorrent()
-
-var filePath = './node-seed.js'
+const client = new WebTorrent()
+const filePath = __filename
 
 console.log('filePath:', filePath)
 
