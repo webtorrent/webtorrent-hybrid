@@ -1,24 +1,24 @@
-// var WebTorrent = require('webtorrent-hybrid')
-var WebTorrent = require('../index')
-var fs = require('fs')
+const WebTorrent = require('../index')
+const fs = require('fs')
 
-var client = new WebTorrent()
+const client = new WebTorrent()
 
-var torrentId = 'magnet:?xt=urn:btih:6a9759bffd5c0af65319979fb7832189f4f3c35d'
+const torrentId = 'magnet:?xt=urn:btih:6a9759bffd5c0af65319979fb7832189f4f3c35d'
 
 console.log('torrentId:\t', torrentId)
 
-client.add(torrentId, function (torrent) {
-  var files = torrent.files
-  var length = files.length
+client.add(torrentId, torrent => {
+  const files = torrent.files
+  let length = files.length
   // Stream each file to the disk
-  files.forEach(function (file) {
-    var source = file.createReadStream()
-    var destination = fs.createWriteStream(file.name)
-    source.on('end', function () {
+  files.forEach(file => {
+    const source = file.createReadStream()
+    const destination = fs.createWriteStream(file.name)
+    source.on('end', () => {
       console.log('file:\t\t', file.name)
       // close after all files are saved
-      if (!--length) process.exit()
+      length -= 1
+      if (!length) process.exit()
     }).pipe(destination)
   })
 })
