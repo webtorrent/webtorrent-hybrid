@@ -21,7 +21,7 @@
     "standard": "*"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=10"
   },
   "homepage": "http://webtorrent.io",
   "keywords": [
