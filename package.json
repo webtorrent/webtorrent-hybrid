@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "create-torrent": "^4.0.0",
-    "webtorrent": "^0.x",
+    "webtorrent": ">=0.107.6",
     "webtorrent-cli": "^3.0.0",
     "wrtc": "^0.4.1"
   },
