@@ -15,7 +15,7 @@
     "create-torrent": "^4.4.2",
     "webtorrent": ">=0.111.0",
     "webtorrent-cli": "^3.2.0",
-    "wrtc": "^0.4.6"
+    "node-datachannel": "^0.0.18"
   },
   "devDependencies": {
     "standard": "*"
