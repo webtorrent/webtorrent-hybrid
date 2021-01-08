@@ -5,8 +5,7 @@ const path = require("path");
 let client = new WebTorrent();
 let file;
 const torrentUrl =
-  "magnet:?xt=urn:btih:9cfa12f0ae191bda5434d9755d99786e40a0c768&dn=%5bFreeCourseSite.com%5d%20Udemy%20-%20React%20-%20The%20Complete%20Guide%20(incl%20Hooks%2c%20React%20Router%2c%20Redux)&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.uw0.xyz%3a6969%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2fopen.demonii.si%3a1337%2fannounc4&tr=udp%3a%2f%2fpublic-tracker.zooki.xyz%3a6969%2fannounce&tr=udp%3a%2f%2fforever.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.cyberia.is%3a6969%2fannounce&tr=udp%3a%2f%2fapi.bitumconference.ru%3a6969%2fannounce&tr=udp%3a%2f%2fdiscord.heihachi.pw%3a6969%2fannounce&tr=udp%3a%2f%2ffe.dealclub.de%3a6969%2fannounce&tr=udp%3a%2f%2fgra1.joshkeegan.co.uk%3a6969%2fannounce";
-
+  "magnet link"
 const createDirectoryPro = (directory) => {
   return new Promise((resolve, reject) => {
     fs.mkdir(directory, { recursive: true }, (err) => {
