@@ -13,15 +13,17 @@
   },
   "dependencies": {
     "create-torrent": "^4.4.2",
-    "webtorrent": ">=0.111.0",
+    "webtorrent": "^1.0.0",
     "webtorrent-cli": "^3.2.0",
     "wrtc": "^0.4.6"
   },
   "devDependencies": {
+    "@webtorrent/semantic-release-config": "^1.0.4",
+    "semantic-release": "^17.4.3",
     "standard": "*"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "homepage": "http://webtorrent.io",
   "keywords": [
@@ -57,5 +59,13 @@
       "type": "consulting",
       "url": "https://feross.org/support"
     }
-  ]
+  ],
+  "renovate": {
+    "extends": [
+      "github>webtorrent/renovate-config"
+    ]
+  },
+  "release": {
+    "extends": "@webtorrent/semantic-release-config"
+  }
 }
