@@ -1,7 +1,7 @@
-# webtorrent-hybrid [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
+# webtorrent-hybrid [![ci][ci-image]][ci-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
-[travis-image]: https://img.shields.io/travis/webtorrent/webtorrent-hybrid/master.svg
-[travis-url]: https://travis-ci.org/webtorrent/webtorrent-hybrid
+[ci-image]: https://github.com/webtorrent/webtorrent-hybrid/actions/workflows/ci.yml/badge.svg
+[ci-url]: https://github.com/webtorrent/webtorrent-hybrid/actions/workflows/ci.yml
 [npm-image]: https://img.shields.io/npm/v/webtorrent-hybrid.svg
 [npm-url]: https://npmjs.org/package/webtorrent-hybrid
 [downloads-image]: https://img.shields.io/npm/dm/webtorrent-hybrid.svg
