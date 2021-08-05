@@ -12,7 +12,7 @@
     "url": "https://github.com/webtorrent/webtorrent-hybrid/issues"
   },
   "dependencies": {
-    "create-torrent": "^4.4.2",
+    "create-torrent": "^5.0.0",
     "webtorrent": "^1.0.0",
     "webtorrent-cli": "^3.2.0",
     "wrtc": "^0.4.6"
