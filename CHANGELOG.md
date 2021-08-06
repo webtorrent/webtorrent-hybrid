@@ -1,3 +1,10 @@
+## [4.1.2](https://github.com/webtorrent/webtorrent-hybrid/compare/v4.1.1...v4.1.2) (2021-08-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency create-torrent to v5 ([#134](https://github.com/webtorrent/webtorrent-hybrid/issues/134)) ([012f3fd](https://github.com/webtorrent/webtorrent-hybrid/commit/012f3fd702f6cfd70bb6cc29762412f78010daf7))
+
 ## [4.1.1](https://github.com/webtorrent/webtorrent-hybrid/compare/v4.1.0...v4.1.1) (2021-07-23)
 
 
