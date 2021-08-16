@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@webtorrent/semantic-release-config": "1.0.5",
-    "semantic-release": "17.4.4",
+    "semantic-release": "17.4.5",
     "standard": "*"
   },
   "engines": {
