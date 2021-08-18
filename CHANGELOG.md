@@ -1,3 +1,10 @@
+## [4.1.3](https://github.com/webtorrent/webtorrent-hybrid/compare/v4.1.2...v4.1.3) (2021-08-18)
+
+
+### Bug Fixes
+
+* dockerfile missing dependency ([#137](https://github.com/webtorrent/webtorrent-hybrid/issues/137)) ([2523b48](https://github.com/webtorrent/webtorrent-hybrid/commit/2523b48e1efd580139f27951edb130f96111d8a0))
+
 ## [4.1.2](https://github.com/webtorrent/webtorrent-hybrid/compare/v4.1.1...v4.1.2) (2021-08-06)
 
 
