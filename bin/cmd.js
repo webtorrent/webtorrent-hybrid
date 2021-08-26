@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
-require('../lib/global')
-require('webtorrent-cli/bin/cmd')
+import '../lib/global.js'
+import 'webtorrent-cli/bin/cmd.js'

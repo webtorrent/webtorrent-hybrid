@@ -30,8 +30,8 @@ npm install webtorrent-hybrid -g
 ## Usage
 
 `webtorrent-hybrid` has the same command line interface (CLI) and module API as
-[`webtorrent`](https://github.com/webtorrent/webtorrent). Just `require('webtorrent-hybrid')`
-instead of `require('webtorrent')`.
+[`webtorrent`](https://github.com/webtorrent/webtorrent). Just `import WebTorrent from 'webtorrent-hybrid'`
+instead of `import WebTorrent from 'webtorrent'`.
 
 See the [WebTorrent docs](https://webtorrent.io/docs).
 
