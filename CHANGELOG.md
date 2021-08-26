@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/webtorrent/webtorrent-hybrid/compare/v4.1.3...v5.0.0) (2021-08-26)
+
+
+### chore
+
+* switch to ESM ([#141](https://github.com/webtorrent/webtorrent-hybrid/issues/141)) ([cbe8c3b](https://github.com/webtorrent/webtorrent-hybrid/commit/cbe8c3b8fff52a6fe9c86e531967566c5a889b12))
+
+
+### BREAKING CHANGES
+
+* switch to ESM
+
 ## [4.1.3](https://github.com/webtorrent/webtorrent-hybrid/compare/v4.1.2...v4.1.3) (2021-08-18)
 
 
