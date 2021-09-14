@@ -1,3 +1,10 @@
+## [5.0.1](https://github.com/webtorrent/webtorrent-hybrid/compare/v5.0.0...v5.0.1) (2021-09-14)
+
+
+### Bug Fixes
+
+* webrtc import ([#143](https://github.com/webtorrent/webtorrent-hybrid/issues/143)) ([3b5d9bb](https://github.com/webtorrent/webtorrent-hybrid/commit/3b5d9bb0a21fceef76f25a113ebede40fce73338))
+
 # [5.0.0](https://github.com/webtorrent/webtorrent-hybrid/compare/v4.1.3...v5.0.0) (2021-08-26)
 
 
