@@ -1,3 +1,10 @@
+## [5.0.2](https://github.com/webtorrent/webtorrent-hybrid/compare/v5.0.1...v5.0.2) (2022-02-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency webtorrent-cli to v4 ([#145](https://github.com/webtorrent/webtorrent-hybrid/issues/145)) ([7da7ddf](https://github.com/webtorrent/webtorrent-hybrid/commit/7da7ddfcb1f163b331f248395319e5fd8ff48752))
+
 ## [5.0.1](https://github.com/webtorrent/webtorrent-hybrid/compare/v5.0.0...v5.0.1) (2021-09-14)
 
 
