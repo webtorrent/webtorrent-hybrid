@@ -16,7 +16,8 @@
     "create-torrent": "^5.0.0",
     "webtorrent": "^1.0.0",
     "webtorrent-cli": "^4.0.0",
-    "wrtc": "^0.4.6"
+    "wrtc": "^0.4.6",
+    "@mapbox/node-pre-gyp": "1.0.9"
   },
   "devDependencies": {
     "@webtorrent/semantic-release-config": "1.0.7",
