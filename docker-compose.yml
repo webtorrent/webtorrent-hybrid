@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  app:
+    build: .
+    ports:
+      - published: 8000
+        target: 8000
+    # Necessary to run on Mac OS X since electron dependency does not
+    # have arm64 support and will fail to compile.
+    platform: "linux/amd64"
