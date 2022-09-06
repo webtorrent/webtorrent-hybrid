@@ -14,9 +14,9 @@
   },
   "dependencies": {
     "create-torrent": "^5.0.0",
+    "rtc": "^3.4.0",
     "webtorrent": "^1.0.0",
-    "webtorrent-cli": "^4.0.0",
-    "wrtc": "^0.4.6"
+    "webtorrent-cli": "^4.0.0"
   },
   "devDependencies": {
     "@webtorrent/semantic-release-config": "1.0.7",
