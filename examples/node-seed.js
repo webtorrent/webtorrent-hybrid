@@ -1,6 +1,5 @@
 import WebTorrent from '../index.js'
 import { fileURLToPath } from 'url'
-import { dirname } from 'path'
 
 const client = new WebTorrent()
 const filePath = fileURLToPath(import.meta.url)
