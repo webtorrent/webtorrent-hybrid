@@ -19,7 +19,7 @@
     "wrtc": "^0.4.6"
   },
   "devDependencies": {
-    "@webtorrent/semantic-release-config": "1.0.9",
+    "@webtorrent/semantic-release-config": "1.0.10",
     "semantic-release": "21.0.7",
     "standard": "*"
   },
