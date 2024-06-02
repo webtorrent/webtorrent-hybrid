@@ -12,11 +12,10 @@
   "bugs": {
     "url": "https://github.com/webtorrent/webtorrent-hybrid/issues"
   },
+  "deprecated": "This package is deprecated as of WebTorrent >= 2.3.0 as native WebRTC support has been added to WebTorrent. Please switch to using the \"webtorrent\" package.",
   "dependencies": {
-    "create-torrent": "^5.0.0",
-    "webtorrent": "^1.0.0",
-    "webtorrent-cli": "^4.0.0",
-    "wrtc": "^0.4.6"
+    "webtorrent": "^2.3.0",
+    "webtorrent-cli": "^4.0.0"
   },
   "devDependencies": {
     "@webtorrent/semantic-release-config": "1.0.10",
@@ -24,7 +23,7 @@
     "standard": "*"
   },
   "engines": {
-    "node": ">=12.20.0"
+    "node": ">=16"
   },
   "homepage": "https://webtorrent.io",
   "keywords": [
