@@ -14,6 +14,7 @@
   },
   "deprecated": "This package is deprecated as of WebTorrent >= 2.3.0 as native WebRTC support has been added to WebTorrent. Please switch to using the \"webtorrent\" package.",
   "dependencies": {
+    "create-torrent": "^6.0.17",
     "webtorrent": "^2.3.0",
     "webtorrent-cli": "^4.0.0"
   },
