@@ -1,5 +1,5 @@
-const WebTorrent = require('../index')
-const fs = require('fs')
+import WebTorrent from '../index.js'
+import fs from 'fs'
 
 const client = new WebTorrent()
 
