@@ -1,4 +1,4 @@
-const WebTorrent = require('../index')
+import WebTorrent from '../index.js'
 
 const client = new WebTorrent()
 const filePath = __filename
