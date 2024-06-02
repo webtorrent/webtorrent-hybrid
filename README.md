@@ -1,4 +1,4 @@
-# Deprecated Warning
+# Deprecation Warning
 This package is deprecated as of WebTorrent >= 2.3.0 as native WebRTC support has been added to WebTorrent. Please switch to using the "webtorrent" package.
 
 # webtorrent-hybrid [![ci][ci-image]][ci-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
