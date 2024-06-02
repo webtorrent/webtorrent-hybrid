@@ -1,3 +1,27 @@
+# [6.0.0](https://github.com/webtorrent/webtorrent-hybrid/compare/v5.0.2...v6.0.0) (2024-06-02)
+
+
+* BREAKING CHANGE: Deprecate webtorrent-hybrid (#195) ([fe511bf](https://github.com/webtorrent/webtorrent-hybrid/commit/fe511bf98a109b5bc7967a2853345a0b23da7b11)), closes [#195](https://github.com/webtorrent/webtorrent-hybrid/issues/195)
+
+
+### BREAKING CHANGES
+
+* Deprecate webtorrent-hybrid
+
+This package is deprecated as of WebTorrent >= 2.3.0 as native WebRTC support has been added to WebTorrent. Please switch to using the "webtorrent" package.
+
+* fix: Update ci to use NodeJS 16 to match package.json
+
+* Update README.md
+
+Update `Deprecated Warning` to `Deprecation Warning`
+
+Co-authored-by: Cas_ <6506529+ThaUnknown@users.noreply.github.com>
+
+* fix: re-add WEBTORRENT_ANNOUNCE which is used for adding websocket trackers to magnetURIs which do not already have them.
+
+* feat: update webtorrent-cli to v5
+
 ## [5.0.2](https://github.com/webtorrent/webtorrent-hybrid/compare/v5.0.1...v5.0.2) (2022-02-01)
 
 
