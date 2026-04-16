@@ -19,7 +19,7 @@
     "webtorrent-cli": "^5.0.0"
   },
   "devDependencies": {
-    "@webtorrent/semantic-release-config": "1.0.10",
+    "@webtorrent/semantic-release-config": "1.0.11",
     "semantic-release": "21.1.2",
     "standard": "*"
   },
